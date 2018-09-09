@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/voidint/tsdump/model"
+	"github.com/shaowin16/tsdump/model"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

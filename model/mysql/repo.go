@@ -5,8 +5,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
-	"github.com/voidint/tsdump/config"
-	"github.com/voidint/tsdump/model"
+	"github.com/shaowin16/tsdump/config"
+	"github.com/shaowin16/tsdump/model"
 )
 
 // Repo MySQL的model.IRepo接口实现

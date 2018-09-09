@@ -15,11 +15,11 @@
 ## 安装
 - 源代码安装
   ```shell
-  $ go get -u github.com/voidint/tsdump
+  $ go get -u github.com/shaowin16/tsdump
   ```
 - 二进制安装
 
-  [Download](https://github.com/voidint/tsdump/releases)
+  [Download](https://github.com/shaowin16/tsdump/releases)
 
 ## 基本使用
 
@@ -143,21 +143,21 @@ COPYRIGHT:
 
 ## Changelog
 ### 0.4.0 - 2018/03/25
-- `Add feature`: 支持`UNIX Domain Socket`方式连接数据库。[#18](https://github.com/voidint/tsdump/issues/18)
-- `Modify feature`: 优化JSON视图输出格式。[#19](https://github.com/voidint/tsdump/issues/19)
+- `Add feature`: 支持`UNIX Domain Socket`方式连接数据库。[#18](https://github.com/shaowin16/tsdump/issues/18)
+- `Modify feature`: 优化JSON视图输出格式。[#19](https://github.com/shaowin16/tsdump/issues/19)
 
 ### 0.3.0 - 2018/01/05
-- `Add feature`: 支持通过`-p`选项指定数据库登录密码。[#16](https://github.com/voidint/tsdump/issues/16)
-- `Fixbug`: 标准输出重定向后获得的内容中包含有`Enter Password:`字样。[#17](https://github.com/voidint/tsdump/issues/17)
+- `Add feature`: 支持通过`-p`选项指定数据库登录密码。[#16](https://github.com/shaowin16/tsdump/issues/16)
+- `Fixbug`: 标准输出重定向后获得的内容中包含有`Enter Password:`字样。[#17](https://github.com/shaowin16/tsdump/issues/17)
 
 ### 0.2.0 - 2018/01/01
-- `Add feature`: 支持从stdin console中读取数据库登录密码。[#5](https://github.com/voidint/tsdump/issues/5)
-- `Fixbug`: 修正help信息。[#6](https://github.com/voidint/tsdump/issues/6)
-- `Add feature`: 支持命令行参数指定目标数据库和表。[#12](https://github.com/voidint/tsdump/issues/12)
-- `Add feature`: 支持通过`-h`选项指定主机名。[#14](https://github.com/voidint/tsdump/issues/14)
+- `Add feature`: 支持从stdin console中读取数据库登录密码。[#5](https://github.com/shaowin16/tsdump/issues/5)
+- `Fixbug`: 修正help信息。[#6](https://github.com/shaowin16/tsdump/issues/6)
+- `Add feature`: 支持命令行参数指定目标数据库和表。[#12](https://github.com/shaowin16/tsdump/issues/12)
+- `Add feature`: 支持通过`-h`选项指定主机名。[#14](https://github.com/shaowin16/tsdump/issues/14)
 
 ### 0.1.0 - 2017/12/31
-- `Add feature`: 支持以`csv`视图方式导出表结构数据。[#1](https://github.com/voidint/tsdump/issues/1)
-- `Add feature`: 支持以`markdown`视图方式导出表结构数据。[#2](https://github.com/voidint/tsdump/issues/2)
-- `Add feature`: 支持以`text`视图方式导出表结构数据。[#3](https://github.com/voidint/tsdump/issues/3)
-- `Add feature`: 支持以`json`视图方式导出表结构数据。[#4](https://github.com/voidint/tsdump/issues/4)
+- `Add feature`: 支持以`csv`视图方式导出表结构数据。[#1](https://github.com/shaowin16/tsdump/issues/1)
+- `Add feature`: 支持以`markdown`视图方式导出表结构数据。[#2](https://github.com/shaowin16/tsdump/issues/2)
+- `Add feature`: 支持以`text`视图方式导出表结构数据。[#3](https://github.com/shaowin16/tsdump/issues/3)
+- `Add feature`: 支持以`json`视图方式导出表结构数据。[#4](https://github.com/shaowin16/tsdump/issues/4)

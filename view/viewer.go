@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/voidint/tsdump/model"
+	"github.com/shaowin16/tsdump/model"
 )
 
 var pool = make(map[string]Viewer)

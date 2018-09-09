@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/voidint/tsdump/model"
-	"github.com/voidint/tsdump/view"
+	"github.com/shaowin16/tsdump/model"
+	"github.com/shaowin16/tsdump/view"
 )
 
 func init() {

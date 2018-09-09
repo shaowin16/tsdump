@@ -8,18 +8,18 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"github.com/voidint/tsdump/build"
-	"github.com/voidint/tsdump/config"
-	"github.com/voidint/tsdump/model"
-	"github.com/voidint/tsdump/model/mysql"
-	"github.com/voidint/tsdump/view"
-	"github.com/voidint/tsdump/view/txt"
+	"github.com/shaowin16/tsdump/build"
+	"github.com/shaowin16/tsdump/config"
+	"github.com/shaowin16/tsdump/model"
+	"github.com/shaowin16/tsdump/model/mysql"
+	"github.com/shaowin16/tsdump/view"
+	"github.com/shaowin16/tsdump/view/txt"
 	"golang.org/x/crypto/ssh/terminal"
 
-	_ "github.com/voidint/tsdump/view/csv"
-	_ "github.com/voidint/tsdump/view/json"
-	_ "github.com/voidint/tsdump/view/md"
-	_ "github.com/voidint/tsdump/view/txt"
+	_ "github.com/shaowin16/tsdump/view/csv"
+	_ "github.com/shaowin16/tsdump/view/json"
+	_ "github.com/shaowin16/tsdump/view/md"
+	_ "github.com/shaowin16/tsdump/view/txt"
 )
 
 const shortVersion = "0.4.0"
